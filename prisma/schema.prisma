@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+// Configuração do Prisma Client (Gera o código para consultar o banco)
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Configuração da conexão com o banco de dados PostgreSQL
+datasource db {
+  provider = "sqlite"
+}
+
+// Tabela de Candidatos
+model Candidate {
+  id              String     @id @default(uuid())
+  name            String
+  email           String     @unique
+  score           Int
+  technicalFit    String
+  resumeText      String
+  createdAt       DateTime       @default(now())
+  recommendedRole String
+}
