@@ -5,7 +5,7 @@ Um microsserviço moderno de triagem de currículos que utiliza Inteligência Ar
 ## Tecnologias Utilizadas
 - **Node.js** & **TypeScript**
 - **Express** (API REST)
-- **Google Gemini API** (Integração com o modelo `gemini-1.5-flash` para análise com IA)
+- **Google Gemini API** (Integração com o modelo `gemini-3.5-flash` para análise com IA)
 - **Prisma 7** (ORM moderno com Driver Adapters)
 - **SQLite** (Persistência leve local com `better-sqlite3`)
 
