@@ -22,7 +22,7 @@ O **AI Screener** é uma aplicação Full Stack de triagem inteligente de currí
 
 ### **Backend**
 - **Node.js** com **Express** e **TypeScript**
-- **Google Gen AI SDK** (modelo `gemini-1.5-flash`)
+- **Google Gen AI SDK** (modelo `gemini-3.5-flash`)
 - **Prisma 7 ORM** (utilizando Driver Adapters para SQLite com `better-sqlite3`)
 - **SQLite** para persistência leve e ágil de dados
 - **CORS** para comunicação segura entre cliente e servidor
