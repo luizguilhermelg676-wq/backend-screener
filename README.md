@@ -1,4 +1,4 @@
-# 🧠 Zara AI Screener — Full Stack AI Resume Evaluator
+# 🧠 AI Screener — Full Stack AI Resume Evaluator
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/SQLite-074D5B?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-O **Zara AI Screener** é uma aplicação Full Stack de triagem inteligente de currículos. A plataforma permite que recrutadores ou gestores enviem dados de candidatos junto ao texto de seus currículos e obtenham, em tempo real, uma análise técnica aprofundada, pontuação de compatibilidade (score) e sugestão de cargo gerados pela API do **Google Gemini (IA)**.
+O **AI Screener** é uma aplicação Full Stack de triagem inteligente de currículos. A plataforma permite que recrutadores ou gestores enviem dados de candidatos junto ao texto de seus currículos e obtenham, em tempo real, uma análise técnica aprofundada, pontuação de compatibilidade (score) e sugestão de cargo gerados pela API do **Google Gemini (IA)**.
 
 ---
 
@@ -34,6 +34,6 @@ O **Zara AI Screener** é uma aplicação Full Stack de triagem inteligente de c
 O repositório é organizado de forma modular em duas pastas principais:
 
 ```text
-zara-ai-project/
+screener-ai-project/
 ├── backend/             # API REST, Integração com Gemini IA e Banco Prisma 7
 └── frontend/            # SPA em React + TypeScript para interface do usuário
